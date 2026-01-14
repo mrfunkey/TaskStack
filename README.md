@@ -4,6 +4,7 @@ GUI: Swing
 
 Database: SQLite
 
-<img width="873" height="915" alt="image" src="https://github.com/user-attachments/assets/eb8bd678-92f6-476a-ae16-8f254cdc9213" />
+<img width="867" height="1042" alt="image" src="https://github.com/user-attachments/assets/627a7b27-2ced-405c-95af-3c1711d9fea6" />
+
 
 
