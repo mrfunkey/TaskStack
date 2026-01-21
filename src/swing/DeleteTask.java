@@ -18,6 +18,7 @@ public class DeleteTask extends JFrame implements ActionListener {
         setSize(400, 200);
         setTitle("Delete Task");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.setResizable(false);
         setLocationRelativeTo(null);
 
         panel = new JPanel(new GridBagLayout());

@@ -22,6 +22,7 @@ public class AddTask extends JFrame implements ActionListener {
         setSize(400, 200);
         setTitle("Add Task");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.setResizable(false);
         setLocationRelativeTo(null);
 
         panel = new JPanel(new GridBagLayout());

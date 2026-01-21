@@ -18,6 +18,7 @@ public class CompleteTask extends JFrame implements ActionListener {
         setSize(400, 200);
         setTitle("Complete Task");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.setResizable(false);
         setLocationRelativeTo(null);
 
         panel = new JPanel(new GridBagLayout());
