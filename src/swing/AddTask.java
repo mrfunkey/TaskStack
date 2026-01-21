@@ -1,5 +1,7 @@
 package swing;
 
+import logic.Database;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,7 +10,7 @@ import java.awt.event.ActionListener;
 public class AddTask extends JFrame implements ActionListener {
 
     private JPanel panel;
-    private GridBagConstraints gbc = new GridBagConstraints();
+    private GridBagConstraints gbc;
     private JLabel addTaskTitle;
     private JLabel taskLabel;
     private JTextField taskNameField;
@@ -23,6 +25,7 @@ public class AddTask extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
 
         panel = new JPanel(new GridBagLayout());
+        gbc = new GridBagConstraints();
 
         addTaskTitle = new JLabel("Add Task");
         addTaskTitle.setFont(addTaskTitle.getFont().deriveFont(Font.BOLD, 15f));
@@ -92,7 +95,8 @@ public class AddTask extends JFrame implements ActionListener {
         String task =  taskNameField.getText();
         String date = taskDateField.getText();
 
-        logic.ButtonHandler.addTaskButton(task, date);
+        logic.Database.newTaskEntry(task, date);
+        TaskList.addTask(task, date);
 
         setVisible(false);
     }

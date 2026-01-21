@@ -9,9 +9,6 @@ public class Main {
         Mainframe frame = new Mainframe();
         frame.setVisible(true);
 
-        Database.loadTasksPortal();
+        Database.loadTasks();
     }
-
-
-
 }

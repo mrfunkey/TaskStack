@@ -9,19 +9,19 @@ public class Mainframe extends JFrame {
     private JPanel cardPanel;
 
     public Mainframe(){
-        this.setSize(600,800);
+        this.setSize(600,600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
+        this.setTitle("TaskStack");
 
         cardLayout = new CardLayout();
         cardPanel = new JPanel(cardLayout);
 
-        cardPanel.add(new TaskList(), "TaskList Panel");
+        cardPanel.add(new TaskList(cardLayout, cardPanel), "TaskList Panel");
+        cardPanel.add(new TaskOptions(cardLayout, cardPanel), "TaskOptions Panel");
 
         add(cardPanel);
 
     }
-
-
 }
