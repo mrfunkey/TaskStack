@@ -1,4 +1,8 @@
-TaskStack is a simple java task manager with a stacked list containing your added tasks to complete. As you complete tasks, your task counter increments!
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java Swing](https://img.shields.io/badge/Java_Swing-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)	
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+
+is a simple java task manager with a stacked list containing your added tasks to complete. As you complete tasks, your task counter increments!
 
 GUI: Swing
 
