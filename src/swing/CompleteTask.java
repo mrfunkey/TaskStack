@@ -20,6 +20,7 @@ public class CompleteTask extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setResizable(false);
         setLocationRelativeTo(null);
+        this.setIconImage(Mainframe.getIcon());
 
         panel = new JPanel(new GridBagLayout());
         gbc = new GridBagConstraints();
