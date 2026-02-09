@@ -24,6 +24,25 @@ When a user deletes a task, it gets removed from the list without incrementing t
 
 <img width="560" height="230" alt="image" src="https://github.com/user-attachments/assets/eaab5b12-5ce7-429e-aa52-16e468dc322e" />
 
+## Installation
+
+### 1. Prerequisites
+- JDK 17 or higher
+- SQLite JDBC Driver
+
+### 2. Clone Repository
+`git clone https://github.com/mrfunkey/TaskStack.git
+cd TaskStack`
+
+### 3. Adding Dependency
+  1. Download the latest .jar from https://github.com/xerial/sqlite-jdbc/releases.
+  2. Create a folder named lib in the TaskStack root.
+  3. Move the .jar into the lib folder.
+  4. Open with an IDE and add the .jar as the library.
+  5. Execute via Main class
+
+  
+
 
 
 
