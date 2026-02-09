@@ -4,10 +4,13 @@
 
 TaskStack is a simple java task manager with a stacked list containing the user's added tasks to complete.
 
+<img width="850" height="475" alt="image" src="https://github.com/user-attachments/assets/3fea6034-f153-4ab1-a488-d11c42ed22d1" />
+
+
 ## Task Management
 Users can add, complete and delete tasks directly through the "Task Options" button located in the Task Stack panel.
 
-<img width="850" height="474" alt="image" src="https://github.com/user-attachments/assets/7ed5269f-15e3-4991-a732-ecff486b13eb" />
+<img width="850" height="475" alt="image" src="https://github.com/user-attachments/assets/7ed5269f-15e3-4991-a732-ecff486b13eb" />
 
 ### Adding tasks
 Allows the user to address the task and set a preferred completion date.
