@@ -4,7 +4,8 @@
 
 TaskStack is a simple java task manager with a stacked list containing the user's added tasks to complete.
 
-<img width="850" height="475" alt="image" src="https://github.com/user-attachments/assets/3fea6034-f153-4ab1-a488-d11c42ed22d1" />
+<img width="850" height="475" alt="image" src="https://github.com/user-attachments/assets/9efc5a1b-06a4-4ed6-bc6a-29d9cf9411a4" />
+
 
 
 ## Task Management
